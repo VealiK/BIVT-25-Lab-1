@@ -151,11 +151,8 @@
             double cntAvror = Math.Ceiling(pupils / 7.0);
             if (!(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)))
             {
-                Console.WriteLine("ne vesokosniy");
-                Console.WriteLine(cntAvror);
                 if (pupils * 5 + cntAvror * salary <= bank)
                 {
-                    Console.WriteLine(cntAvror * 5 + cntAvror * salary);
                     answer = true;
                 }
             }
